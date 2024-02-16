@@ -1,8 +1,8 @@
 function myFunction() {
     const dropdownNavbar = document.getElementsByTagName("nav");
-    if (dropdownNavbar.style.display === "block") {
+    if (dropdownNavbar.style.display === "flex") {
       dropdownNavbar.style.display = "none";
     } else {
-      dropdownNavbar.style.display = "block";
+      dropdownNavbar.style.display = "flex";
     }
   }
