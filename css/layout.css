@@ -48,15 +48,26 @@
 \*--------------------------------*/
 
 @media (max-width: 991px) {
+  header {
+    flex-flow: column nowrap;
+    height:auto;
+    margin-bottom: 1.875rem;
+  }
   .nav {
     display: none;
-    flex-flow: column nowrap; /* Elrendezés változtatása az elrejtés miatt */
+     
+    
   }
-  .show {
-    display:  flex;
-    position: absolute;
-    top:      5rem;
+  .nav.show { 
+    display:flex;
+    flex-flow: column nowrap;
+    height: auto;
+    gap: 1.875rem;
+    
+    
   }
+     
+  
   .nav-menu {
     display: block;
   }
