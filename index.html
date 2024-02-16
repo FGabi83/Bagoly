@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/af9fa598da.js" crossorigin="anonymous"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/components.css">
+    <title>Contact Page</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img class="logo" src="assets/logo_50.svg" alt="logo">
+      <nav role="navigation">
+        <a class="nav-item" href="#">Home</a>
+        <a class="nav-item" href="#">About</a>
+        <a class="nav-item" href="#">Pricing</a>
+        <a class="nav-item" href="#">Contact</a>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="content-card content-card__address">
+        <!--<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13217.817289299444!2d-118.30962700000002!3d34.0835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8afc006b421%3A0x60ad8cecd5b7add0!2s3481%20Melrose%20Ave%2C%20Los%20Angeles%2C%20CA%2090038%2C%20Egyes%C3%BClt%20%C3%81llamok!5e0!3m2!1shu!2shu!4v1701086408370!5m2!1shu!2shu" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.4556889126807!2d-118.341063884784!3d34.08346498059731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8d36cb40581%3A0xe92d0cfe124170cf!2s3481%20Melrose%20Ave%2C%20Los%20Angeles%2C%20CA%2090038%2C%20Egyes%C3%BClt%20%C3%81llamok!5e0!3m2!1shu!2shu!4v1586337676963!5m2!1shu!2shu" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="address-text">
+          <h6 class="highlighted-text address-title">Address</h6>
+          <p class="address">3481 Melrose Avenue,<br>
+             Beverly Hills, CA 90210, USA</p>
+        </div>
+        <p class="phone-email">
+          <a class="highlighted-text phone" href="tel:1234567890">(123) 456-7890</a>
+          <a class="highlighted-text email" href="mailto:name@example.com">name@example.com</a>
+        </p>
+        <div class="icons-wrapper">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="icons fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="icons fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="icons fa-brands fa-twitter"></i>
+          </a>
+        </div> 
+      </div>
+
+      <div class="content-card content-card__form">
+        <h1 class="form-title">Contact Us</h1>
+        <p class="form-text">Lorem ipsum dolor sit amet, consetetur 
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+          ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <form class="form" method="post" action="process.php">
+          <input type="text" class="form__input" id="name" name="name" placeholder="Name" required>
+          <input type="email" class="form__input" id="email" name="email" placeholder="Enter Email" required>
+          <textarea class="form__input" id="message" name="message" placeholder="Enter your Message..." required></textarea>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    
+    <footer>
+      <p class="footer-text">© 2020 Copyright <span class="highlighted-text">Brand Name</span> / Design by <span class="highlighted-text"> Student Name </span></p>
+    </footer>
+  </div>
+</body>
+</html>
