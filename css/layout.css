@@ -5,6 +5,7 @@
 *
 *Main.................over layout of the content
 *
+*Mobile layout........sandvich menu
 \*--------------------------------*/
 
 
@@ -37,4 +38,22 @@
     width:           100%;
     padding:         2.5rem 0 2.5rem 0;
 }
-  
+
+
+
+
+
+/*--------------------------------*\
+  * MOBILE LAYOUT
+\*--------------------------------*/
+
+@media (max-width: 991px) {
+  nav {
+    display: none;
+    flex-flow: column nowrap; /* Elrendezés változtatása az elrejtés miatt */
+  }
+
+  .nav-menu {
+    display: block;
+  }
+}

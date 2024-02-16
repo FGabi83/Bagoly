@@ -12,21 +12,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!-- CSS stylesheets -->
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/components.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
     <title>Contact Page</title>
 </head>
 <body>
   <div class="container">
     <header>
       <img class="logo" src="assets/logo_50.svg" alt="logo">
-      <nav role="navigation">
+      <nav>
         <a class="nav-item" href="#">Home</a>
         <a class="nav-item" href="#">About</a>
         <a class="nav-item" href="#">Pricing</a>
         <a class="nav-item" href="#">Contact</a>
       </nav>
+      <a href="javascript:void(0);" class="nav-menu" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </header>
     
     <main>
@@ -73,5 +77,6 @@
       <p class="footer-text">© 2020 Copyright <span class="highlighted-text">Brand Name</span> / Design by <span class="highlighted-text"> Student Name </span></p>
     </footer>
   </div>
+<script src="dropdownMenu.js"></script>
 </body>
 </html>

@@ -94,15 +94,17 @@
     opacity:          1;
     padding-left:     15.3125rem;
     padding-right:    15.3125rem;
-    
+   /* position:         relative; to position the sandvich menu */
+    /*overflow:         hidden; to hide the sandvich menu */
   }
   
 
   /* Logo */
   
     .logo {
-      width:      11.25rem;
-      height:     3.125rem;
+      width:          11.25rem;
+      height:         3.125rem;
+      margin-right:   1.875rem;
     }  
     
   
@@ -115,6 +117,7 @@
       flex-flow:       row nowrap;
       justify-content: space-evenly;
       align-items:     center;
+      
     }
   
     .nav-item {
@@ -144,11 +147,19 @@
       }
     
   
-      .nav-item:hover {
+      .nav-item:hover, .nav-menu:hover {
         opacity:          1;
         transition:       0.3s;
       }
   
+
+    /*Sandvich menu is not shown on desktop */
+
+    .nav-menu {
+      display:         none;
+      color:           var(--secondary-color);
+      opacity:         .65; 
+    }
   
   
   

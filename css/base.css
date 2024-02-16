@@ -12,11 +12,11 @@
 \*-----------------------------------*/
 
 :root {
-    --primary-color:        #211138;
-    --secondary-color:      #FFFFFF;
-    --brand-color:          #6200EA;   
-    --background-color:     #F4F3F5;
-    --tertiary-color:       #B2ACBA;
+    --primary-color:        #BC956C; /* brand - Light brown */
+    --secondary-color:      #FFFFFF; 
+    --brand-color:          #042236; /* brand - Dark blue */ 
+    --background-color:     #F4F3F5; /
+    --tertiary-color:       #FEEECA; /* brand - Light yellow - not in use */
     --font-size-regular:    1.25rem;
     --font-size-big:        2.5rem;
     --font-size-medium:     0.875rem;
@@ -44,7 +44,7 @@
 
 
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Roboto? */
     text-align:  left;
     font-size:   var(--font-size-regular);
     line-height: var(--line-height-regular);
