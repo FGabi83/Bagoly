@@ -94,8 +94,8 @@
     opacity:          1;
     padding-left:     15.3125rem;
     padding-right:    15.3125rem;
-   /* position:         relative; to position the sandvich menu */
-    /*overflow:         hidden; to hide the sandvich menu */
+    position:         relative; 
+    overflow:         hidden; 
   }
   
 
@@ -110,7 +110,7 @@
   
   /* Navbar */
 
-    nav {
+    .nav {
       width:           27.0625rem;
       height:          5rem;
       display:         flex;
@@ -130,6 +130,7 @@
       color:           var(--secondary-color);
       opacity:         .65;
       position:        relative; /* to position the underline */
+      display:         inline-block; 
     }
   
     /*in case of hover, underline is shown at the bottom of the navbar*/
