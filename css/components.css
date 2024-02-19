@@ -95,7 +95,7 @@
     padding-left:     15.3125rem;
     padding-right:    15.3125rem;
     position:         relative; 
-    overflow:         hidden; 
+    /*overflow:         hidden; */
   }
   
 
@@ -159,7 +159,7 @@
     .nav-menu {
       display:         none;
       color:           var(--secondary-color);
-      opacity:         .65; 
+       
     }
   
   

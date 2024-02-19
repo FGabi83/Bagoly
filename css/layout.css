@@ -48,27 +48,38 @@
 \*--------------------------------*/
 
 @media (max-width: 991px) {
-  header {
+  /*header {
     flex-flow: column nowrap;
     height:auto;
-    margin-bottom: 1.875rem;
-  }
+    padding-bottom: 1.875rem;
+  }*/
+
   .nav {
     display: none;
-     
-    
+      
   }
+
+  
+
   .nav.show { 
     display:flex;
     flex-flow: column nowrap;
     height: auto;
     gap: 1.875rem;
-    
-    
+    background-color: var(--brand-color);
+    color: var(--secondary-color);
+    opacity: 1;
+    z-index: 100;
+    position: absolute;
+    top: 5rem;
+    padding-bottom: 1.875rem;
   }
+
+   
      
   
   .nav-menu {
     display: block;
+    opacity: .65;
   }
 }
