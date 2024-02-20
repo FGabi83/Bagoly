@@ -79,6 +79,10 @@
     display:          block;
     opacity:          .65;
   }
+
+  .nav-menu.highlight {
+    opacity:          1;
+  }
 }
 
 @media (max-width: 600px) {
@@ -100,11 +104,17 @@ header {
       height:       10%;
     }
 
-    
+    .form-title {
+      font-size:     var(--font-size-regular);
+      line-height:   var(--line-height-regular);
+      margin-bottom: 1rem;
+    }
     .form-text {
       width:         100%;
       height:        auto;
       overflow:      auto;
+      font-size:     var(--font-size-medium);
+      line-height:   var(--line-height-medium);
     }
     .form {
       width:           100%;
