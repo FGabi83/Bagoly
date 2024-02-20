@@ -80,7 +80,13 @@
     opacity:          .65;
   }
 
-  
+  .nav-menu:hover {
+    opacity:          .65;
+    }
+
+  .nav-menu.highlight {
+    opacity:          1;
+  }
 }
 
 @media (max-width: 600px) {
