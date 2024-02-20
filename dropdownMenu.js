@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
     navMenu.addEventListener("click", () => {
       dropdownNavbar.classList.toggle("show");
-      navMenu.classList.toggle("highlight");
+      
     });
   });
   
