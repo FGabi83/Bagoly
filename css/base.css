@@ -44,6 +44,7 @@
 
 
   body {
+    width:       100%;
     font-family: 'Montserrat', sans-serif; /* Roboto? */
     text-align:  left;
     font-size:   var(--font-size-regular);
