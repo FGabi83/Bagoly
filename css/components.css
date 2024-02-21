@@ -103,7 +103,7 @@
   /* Logo */
   
     .logo {
-      height:         171%; /* svg kerete jóval nagyobb mint maga a logo */
+      height:         100%; /* svg kerete jóval nagyobb mint maga a logo */
       margin-right:   1.875rem;
     }  
     
