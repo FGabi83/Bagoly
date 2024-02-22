@@ -47,12 +47,16 @@
   * MOBILE LAYOUT
 \*--------------------------------*/
 
+/*Sandvich menu is not shown on desktop */
+/* 
+* 1) white line separating the menu items 
+* 2) hover effect on mobile version not needed
+*/
+
 @media (max-width: 991px) {
  
   .nav {
     display:          none;
-    
-
   }
 
 
@@ -61,7 +65,7 @@
     flex-flow:        column nowrap;
     height:           auto;
     width:            90%;
-    /*gap:              1.875rem;*/
+    /*gap:              1.875rem; /*[1]*/
     background-color: var(--brand-color);
     color:            var(--secondary-color);
     opacity:          1;
@@ -69,20 +73,20 @@
     position:         absolute;
     top:              5rem;
     left:             5%;
-    /*padding-bottom:   1.875rem;
-    padding-top:      1.875rem;*/
+    /*padding-bottom:   1.875rem; /*[1]*/
+    /*padding-top:      1.875rem; /*[1]*/
     border-radius:    0 0 .3125rem .3125rem;
   }
 
-    .nav.show > .nav-item {
+    .nav.show > .nav-item { /*[1]*/
       border-bottom: 1px solid rgba(255, 255, 255, 0.65);
-      
       line-height:   2.81rem; 
       width:         100%;
       text-align:    center;
     }
-    
-    .nav.show > .nav-item:hover::after {
+
+        
+    .nav.show > .nav-item:hover::after { /* [2] */
       display: none;
     }
      
@@ -92,7 +96,7 @@
     opacity:          .65;
   }
 
-  .nav-menu:hover {
+  .nav-menu:hover {  /* [2] */
     opacity:          .65;
     }
 
@@ -100,6 +104,8 @@
     opacity:          1;
   }
 }
+
+/* Content size adjusted to mobile version */
 
 @media (max-width: 600px) {
 
